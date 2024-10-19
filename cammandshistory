@@ -1,0 +1,67 @@
+Setting Up User Information
+Set global username:
+Example: git config --global user.name "JohnDoe"
+
+Set global email:
+Example: git config --global user.email "john@example.com"
+
+Initializing and Cloning Repositories
+Initialize an empty Git repository:
+Example: git init my-project
+
+Clone an existing Git repository:
+Example: git clone https://github.com/user/repo.git
+
+Staging and Committing Changes
+Add a specific file:
+Example: git add index.html
+
+Add all files:
+Example: git add .
+
+Commit staged files:
+Example: git commit -m "Initial commit"
+
+Managing Modifications
+Restore a modified file:
+Example: git restore index.html or git checkout index.html
+Checking Repository Status
+Show the status of the repository:
+Example: git status
+
+Show branches in the repository:
+Example: git branch
+
+Branch Management
+Checkout to a new branch:
+Example: git checkout -b feature-branch
+
+Checkout to an existing branch:
+Example: git checkout main
+
+Remove a branch:
+Example: git branch -d old-branch
+
+Remote Repository Management
+Show remote origin URL:
+Example: git remote -v
+
+Add remote origin URL:
+Example: git remote add origin https://github.com/user/repo.git
+
+Remove remote origin URL:
+Example: git remote remove origin
+
+Syncing with Remote Repositories
+Fetch all remote branches:
+Example: git fetch
+
+Push local changes to a remote branch:
+Example: git push origin main
+
+Pull remote changes to local branch:
+Example: git pull origin main
+
+Viewing Commits and Logs
+Check commits and logs:
+Example: git log
